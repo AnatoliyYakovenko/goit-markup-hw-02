@@ -14,7 +14,6 @@ body {
   color: var(--primary-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-
   background-color: var(--white-elements);
 }
 /* Logo */
@@ -35,13 +34,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .list {
   list-style: none;
 }
 .site-nav .link {
   color: var(--primary-color);
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,7 +52,6 @@ body {
 /* Contacts */
 .contact {
   color: var(--secondary-color);
-  text-decoration: none;
 }
 .contacts-nav .contact:hover,
 .contacts-nav .contact:focus {
@@ -182,9 +180,6 @@ body {
 .projects {
   list-style: none;
 }
-.projects-list {
-  background-color: var(--background-portfolio-frames);
-}
 .projects-link {
   text-decoration: none;
 }
@@ -192,7 +187,7 @@ body {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   text-decoration: none;
   letter-spacing: 0.06em;
 }
@@ -200,5 +195,6 @@ body {
   color: var(--secondary-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
 }
+
